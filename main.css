@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Sofia+Sans+Condensed&display=swap');
+body{
+    background-color: rgb(249, 226, 191);
+    margin: 0;
+}
+nav{
+    background-color: rgb(54, 112, 238);
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 150px;
+    font-family: 'Dosis', sans-serif;
+}
+nav a:hover{
+    background-color: white;
+    color: rgb(54, 112, 238);
+}
+nav li{
+    display: inline-block;
+}
+nav h1{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+.menu{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+.article{
+    background-color: white;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 20px -10px rgb(54, 112, 238);
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.image1{
+    width: 30%;
+    display: block;
+    float: left;
+}
+.footer{
+    background-color:rgb(54, 112, 238);
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.lien1{
+    background-color: white;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 20px -10px rgba(245, 48, 48, 0.92);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.lien2{
+    background-color: white;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 20px -10px rgba(245, 48, 48, 0.92);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.lien1 a{
+    color:rgba(245, 48, 48, 0.92);
+    text-decoration: none;
+}
+.lien2 a{
+    color:rgba(245, 48, 48, 0.92);
+    text-decoration: none;
+}
+.lien1 a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.lien2 a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.article a{
+    text-decoration: none;
+    color:black;
+}
+.article a:hover{
+    text-decoration: underline;
+    color:rgb(54, 112, 238)
+}
